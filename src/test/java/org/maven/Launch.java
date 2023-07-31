@@ -13,6 +13,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Launch {
 
 	public static void main(String[] args) {
+		System.out.println("Updated in gitHub by gaju");
 		WebDriverManager.chromedriver().setup();
          //WebDriverManager.edgedriver().setup();
 		ChromeDriver driver = new ChromeDriver();
